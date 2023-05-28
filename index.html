@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Basic styling */
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(red,yellow,yellow,red);
+}
+h1{
+    border-color: black;
+    border-radius: 3%;
+}
+header {
+    background-image: linear-gradient(red, rgb(255, 60, 0));
+    color: #fff;
+    padding: 20px;
+    display: flex; /* Add flex display */
+    justify-content: space-between; /* Align items on the same line with space between */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Add flex display */
+}
+
+nav ul li {
+    margin-right: 60px;
+    padding-top: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+@keyframes glowing {
+    0% {
+        opacity: 1;
+        text-shadow: none;
+    }
+    50% {
+        opacity: 0.7;
+        text-shadow: 0 0 10px #fff;
+    }
+    100% {
+        opacity: 1;
+        text-shadow: none;
+    }
+}
+
+nav ul li a:hover {
+    animation: glowing 1.5s infinite; /* Apply the animation */
+}
+
+section {
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
+    padding: 50px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: oblique; */
+}
+/* #projects{
+    margin-top: 100px;
+} */
+footer {
+    background-image: linear-gradient( rgb(255, 60, 0),red);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pentakota Sowjanya</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#Languages">Languages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a btech 4th year pursing student who is searching for a path which I can fit in. 
+            My top most priority is time, amd I make sure that I present my assigned work in the given time. 
+            A good amount of leardership skills could be seen in me and i'm able to lead the team smoothly 
+            obtaining the best result. Seeking for a job opportunity with an esteemed organization where I can 
+            utilize my skills and enhance learning in the field of work. Capable of mastering new technologies.</p>
+        <p>I am pursing my B.Tech in VIIT with an average of 78%.<br/>
+            I did my Diploma(Computer Engineering) in Mrs. AVN College Polytechnic in 2018 with 82.25%<br/>
+        Did my schooling in Mrs. Mariadas School in till 10th(ICSE) with 77%</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Farmer's Store</h3>
+            <p>At Farmer's store, our mission is to create an enjoyable shopping experience to the customers 
+                and providing farmers a high-quality, smart, and reliable online store where they can directly
+                 sell their produce. Our passion for excellence has driven us from the beginning and continues
+                  to drive us into the future. We know that every product counts, and strive to make the entire 
+                  shopping experience as rewarding as possible. Check it out for yourself</p>
+            <p>Find my project here: https://sowjanyapentakota.github.io/framer-s-Store/</p>
+
+            <h3>Complaint Management</h3>
+            <p>“Feedback is the most necessary thing that in this digital era”. 
+                Nowadays we see that a lot of people keep asking to give feedback at the services they providing.
+                 And to upgrade them according to user requirements and choices.
+                 Through this service the student can give the feedback and can submit the issues 
+                 they have in this portal, then those feedbacks which were submitted will be sorted
+                  according to their branches and based on the issues they have.</p>
+            <p>Find my project here: https://sowjanyapentakota.github.io/complaint-Management/</p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <p>Programming languages: Puthon, C Programming</p>
+        <p>Web Development: HTML, CSS, HTML5, CSS3, JS, BOOTSTRAP</p>
+        <p>Frameworks: Flask</p>
+        <p>MS Office: MS Word, MS Excel, MS, Powerpoint</p>
+        <p>Database Management: MYSQL Server, PHP </p>
+    </section>
+
+    <section id="Languages">
+        <h2>Languages Known</h2>
+        <p>English: Proficient</p>
+        <p>Telugu(Mother-tongue): Proficient</p>
+        <p>Hindi: Conversational</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p><Email-id>Email-id:sowjanyapentakota31@gmail.com</Email-id></p>
+        <p><Phone class="no">Phone.no:7288995499</Phone></p>
+        <p>LinkedIn id: https://www.linkedin.com/in/pentakota-sowjanya-b2a223237<p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
